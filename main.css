@@ -9,6 +9,7 @@ body {
 
 table {
     border-radius: 25px;
+    border-collapse: separate;
     border: 3px solid #73AD21;
     padding: 20px; 
     width: 200px;
@@ -16,6 +17,7 @@ table {
 }
 
 td{
+	border-collapse: separate;
 	border-radius: 10px;
 	border: 2px solid #1976D2;
 }
