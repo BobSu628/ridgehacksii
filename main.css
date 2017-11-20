@@ -7,9 +7,23 @@ body {
     margin:5rem;
 }
 
-table, td {
+table {
+    border-radius: 25px;
+    padding:2rem;
+    border-collapse: collapse;
+}
+
+td {
     padding:2rem;
     border: 3px solid green;
+}
+
+tr:nth-child(odd){
+    background-color: #00ccff;
+}
+
+tr:nth-child(even){
+    background-color: #33cc33;
 }
 
 #back {
