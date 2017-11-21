@@ -7,10 +7,24 @@ body {
     margin:5rem;
 }
 
-table, td{
+table{
+	padding:2rem;
+    border-collapse: separate;
+border-style: hidden;
+}
+td{
     padding:2rem;
     border-collapse: separate;
-    border-radius: 25px;
+border-radius: 25px;
+border: 2px solid #73AD21;
+}
+td.noBorder{
+	border-style: hidden;
+}
+td:nth-child(odd){
+    border: 2px solid #00ccff;
+}
+td:nth-child(even){
     border: 2px solid #73AD21;
 }
 /*table, td {
